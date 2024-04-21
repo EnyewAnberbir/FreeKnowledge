@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: boreder-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+body{
+  background-color: azure;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.comtainer{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+@media(max-width: 1200px){
+  .comtainer{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .btn{
+    padding: 14px 22px;
+  }
+}
